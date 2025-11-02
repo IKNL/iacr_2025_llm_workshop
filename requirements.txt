@@ -1,0 +1,6 @@
+langchain==0.2.5
+langchain-community==0.2.5 
+sentence-transformers==3.0.1 
+chromadb==1.0.15 
+setuptools
+llama-cpp-python==0.3.16 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124
