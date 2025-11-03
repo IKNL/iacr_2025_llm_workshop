@@ -15,13 +15,13 @@ The workshop consists of two main sessions designed to provide practical experie
 
 ```
 ├── data/                           # Workshop datasets
-├── model/                          # Model files and configurations
+├── model/                          # Model files
 ├── notebooks/                      # Jupyter notebooks for workshop sessions
 │   ├── retrieval_augmented_generation/
-│   │   ├── RAG.ipynb               # Main RAG workshop notebook
+│   │   ├── RAG.ipynb               # RAG workshop notebook
 │   │   └── helper_notebooks/       # Helper notebooks (i.e., data parsing)
 │   └── text_classification/
-│       └── IACR_text_classification.ipynb # Text classification workshop
+│       └── IACR_text_classification.ipynb # Text classification workshop notebook
 ├── requirements.txt                 # Python dependencies
 ├── LICENSE.md                       # MIT License
 └── readme.md                        # This file
@@ -29,13 +29,13 @@ The workshop consists of two main sessions designed to provide practical experie
 
 ### Running the Notebooks
 
-#### Option 1: Google Colab (Recommended)
-Click the "Open in Colab" badges above to run the notebooks in Google Colab with pre-configured environments.
+#### Option 1: Google Colab (Preferred)
+Click the "Open in Colab" badges above to run the notebooks in Google Colab with pre-configured environments. 
+
+**Important Note:** A google account is needed to run the notebooks.
 
 #### Option 2: Local Jupyter
-```bash
-jupyter notebook notebooks/
-```
+[TO BE ADDED LATER]
 
 ## Session Details
 
@@ -49,37 +49,21 @@ Learn how to implement and fine-tune LLMs for text classification tasks using he
 
 ### Session 2: Retrieval-Augmented Generation (RAG)
 Explore RAG techniques for enhancing LLM responses with external knowledge. Topics include:
-- Document embedding and vector databases
-- Retrieval mechanisms and similarity search
+- How to reduce hallucinations in LLM responces
+- Data Base Retrieval mechanisms and similarity search
 - Context integration and prompt engineering
-- Evaluation of RAG on Adverse Events and Cancer in 5 Continents data
+- Evaluation of RAG on Adverse Events (CTCAE) and Cancer in 5 Continents (CI5) data
 
 ## Data Sources
 
 The workshop utilizes:
-- **Fake clinical note data** ([data/IACR_PS_workshop.csv](data/IACR_PS_workshop.csv))
+- **Synthetic clinical note data** ([data/IACR_PS_workshop.csv](data/IACR_PS_workshop.csv))
 - **CTCAE v4 data** - Common Terminology Criteria for Adverse Events (https://evs.nci.nih.gov/ftp1/CTCAE/CTCAE_4.03/Archive/CTCAE_4.0_2009-05-29_QuickReference_8.5x11.pdf)
 - **Cancer Incidence in 5 Continents (CI5) v12** - Cancer Incidence data from all over the world (https://ci5.iarc.fr/ci5-xii/)
 
 
 ## For local installation only (Option 2 above)
-
-1. Clone the repository:
-```bash
-git clone https://github.com/IKNL/iacr_2025_llm_workshop.git
-cd iacr_2025_llm_workshop
-```
-
-2. Create a virtual environment:
-```bash
-python -m venv workshop-env
-source workshop-env/bin/activate  # On Windows: workshop-env\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+[TO BE ADDED LATER]
 
 ## License
 
