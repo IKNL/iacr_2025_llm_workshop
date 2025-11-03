@@ -41,10 +41,11 @@ jupyter notebook notebooks/
 
 ### Session 1: Text Classification
 Learn how to implement and fine-tune LLMs for text classification tasks using healthcare data. The session covers:
-- 
-- 
-- 
-- 
+- TF-IDF vectorization for turning text into a numerical representation
+- Not fine-tuned sentence embedding model to get contextual embeddings, in combination with a random forest classifier
+- Few-shot finetuning sentence embedding models with Setfit
+- Zero-shot classification with the HugginFace pipeline
+- Evaluation of all previous models on WHO performance status classification
 
 ### Session 2: Retrieval-Augmented Generation (RAG)
 Explore RAG techniques for enhancing LLM responses with external knowledge. Topics include:
@@ -90,5 +91,6 @@ Developed by Dimitris Katsimpokis (d.katsimpokis@iknl.nl) and Irene Cara (i.cara
 
 
 ## Support
+
 
 For questions or issues during the workshop, please raise an issue in this repository or contact the workshop organizers.
